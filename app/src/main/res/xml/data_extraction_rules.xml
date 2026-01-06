@@ -9,6 +9,8 @@
         <include .../>
         <exclude .../>
         -->
+        <include domain="sharedpref" path="." />
+        <exclude domain="database" path="." />
     </cloud-backup>
     <!--
     <device-transfer>
